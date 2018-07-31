@@ -80,6 +80,7 @@ public class AddNotePresenter {
         ContentValues values = new ContentValues();
         values.put("Notes", notes);
 
+
         // updating row
         try {
             db.update("USERS", values, "ID" + " = ?",
